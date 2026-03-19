@@ -2,28 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://highnet.com.br/</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://highnet.com.br/blog/</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://highnet.com.br/sobre.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://highnet.com.br/contato.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-  <!-- SITEMAP_BLOG_START — Agent 3 insere novos artigos aqui -->
-  <!-- SITEMAP_BLOG_END -->
+  <url>
+    <loc>https://highnet.com.br/blog/o-que-e-aeo-answer-engine-optimization/</loc>
+    <lastmod>2025-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/chatgpt-vs-perplexity-vs-gemini-vs-claud/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/como-ias-escolhem-quais-sites-citar/</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/seo-morreu-como-aeo-e-seo-trabalham-junt/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/o-que-e-geo-generative-engine-optimizati/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/como-ia-esta-mudando-busca-informacao-brasil/</loc>
+    <lastmod>2024-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/como-usar-chatgpt-pesquisa-de-mercado-gu/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/automacao-ia-pequenas-empresas-por-onde-/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/o-que-e-agente-de-ia-como-pode-trabalhar/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/ia-generativa-marketing-ferramentas-cust/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/schema-markup-o-que-e-como-implementar/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/google-ai-overviews-o-que-muda-conteudo-brasil/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/zero-click-search-60-por-cento-buscas-se/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/como-medir-se-sua-marca-aparece-nas-resp/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/perplexity-vs-google-novo-duelo-busca-20/</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
