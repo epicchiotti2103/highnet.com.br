@@ -37,8 +37,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://highnet.com.br/blog/como-usar-deep-research-decisoes-negocio-chatgpt-gemini-perplexity/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/dslms-modelos-ia-especificos-setor-superam-generalistas/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://highnet.com.br/blog/google-ai-overviews-cortando-trafego-sites/</loc>
     <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/gpt-55-instant-memoria-auditavel-chatgpt/</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -139,6 +157,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://highnet.com.br/blog/ia-agentica-pratica-como-implementar-agentes-executam-operacao/</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://highnet.com.br/blog/microsoft-copilot-pequenas-empresas-custos-roi-2026/</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -146,6 +170,12 @@
   </url>
   <url>
     <loc>https://highnet.com.br/blog/model-context-protocol-mcp-o-que-e-por-que-desenvolvedores-precisam-conhecer/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/nuvem-vs-infraestrutura-propria-ia-calcular-roi-2026/</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
