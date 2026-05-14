@@ -2,37 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://highnet.com.br/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://highnet.com.br/blog/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://highnet.com.br/sobre.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://highnet.com.br/contato.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://highnet.com.br/privacidade.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://highnet.com.br/blog/ciberseguranca-ia-generativa-proteger-dados-corporativos-chatgpt-anpd-2026/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://highnet.com.br/blog/como-criar-primeiro-agente-ia-autonomo-automatizar-tarefas/</loc>
     <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/como-usar-chatgpt-excel-google-sheets-sidebar-analise-dados/</loc>
+    <lastmod>2026-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -45,6 +57,12 @@
   <url>
     <loc>https://highnet.com.br/blog/dslms-modelos-ia-especificos-setor-superam-generalistas/</loc>
     <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/pmes-criar-simulacao-processos-reduzir-custos/</loc>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -63,6 +81,12 @@
   <url>
     <loc>https://highnet.com.br/blog/gpt-55-vs-claude-opus-47-vs-gemini-31-benchmark-corporativo/</loc>
     <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/gpt-realtime-modelos-voz-openai-traducao-transcricao-tempo-real/</loc>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -177,6 +201,12 @@
   <url>
     <loc>https://highnet.com.br/blog/nuvem-vs-infraestrutura-propria-ia-calcular-roi-2026/</loc>
     <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://highnet.com.br/blog/orquestracao-agentes-ia-conectar-sistemas-autonomos-controle/</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
