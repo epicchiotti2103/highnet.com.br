@@ -53,7 +53,54 @@
     }
   }
   </script>
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O ChatGPT usa meus prompts corporativos para treinar o modelo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Por padrão, sim. O ChatGPT gratuito utiliza conversas para melhorar seus modelos, a menos que você desative essa opção nas configurações. A versão Enterprise oferece controles adicionais, mas é essencial configurar adequadamente as opções de privacidade e implementar políticas claras sobre qual versão utilizar para atividades corporativas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como auditar o que meus funcionários estão compartilhando com IAs generativas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Implemente soluções de DLP que monitorem uploads para domínios de IA generativa, configure logs detalhados em ferramentas corporativas de IA e estabeleça revisões periódicas dos prompts utilizados. Para ferramentas não corporativas, o monitoramento de tráfego de rede pode identificar uso não autorizado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Minha empresa pode ser multada pela ANPD por vazamento via IA generativa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. A LGPD responsabiliza a empresa controladora pelos dados, independentemente de vazamentos ocorrerem através de ferramentas de terceiros. A ANPD já emitiu 142 notificações relacionadas a processamento de dados por IA, demonstrando atenção específica a esse vetor de risco."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como implementar uma política de uso seguro de IA generativa na prática?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Comece definindo quais ferramentas são aprovadas, classifique seus dados por nível de sensibilidade, implemente controles técnicos (DLP, monitoramento), treine colaboradores com exemplos práticos e estabeleça processos de auditoria regulares. A política deve ser específica e incluir exemplos claros do que é permitido e proibido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais ferramentas de DLP funcionam para monitorar uso de ChatGPT e similares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Soluções como Microsoft Purview, Symantec DLP e Forcepoint DLP oferecem capacidades específicas para monitoramento de IA generativa. Configure detecção de padrões de dados sensíveis, monitore tráfego para domínios específicos (openai.com, claude.ai) e implemente políticas que bloqueiem uploads não autorizados baseados em classificação de dados."
+      }
+    }
+    ]
+  }
+  </script>
 </head>
 <body>
 

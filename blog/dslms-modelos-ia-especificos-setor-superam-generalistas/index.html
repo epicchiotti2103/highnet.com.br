@@ -53,7 +53,54 @@
     }
   }
   </script>
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qual a diferença entre um DSLM e um LLM com prompt especializado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DSLMs são treinados desde o início em dados específicos de domínio, incorporando vocabulário e lógica setorial na arquitetura. LLMs com prompts especializados mantêm conhecimento generalista e aplicam contexto específico apenas na interface, resultando em menor precisão e maior chance de \"alucinações\" em tarefas críticas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "DSLMs são viáveis para pequenas e médias empresas ou só para grandes corporações?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Atualmente, DSLMs customizados são principalmente viáveis para grandes empresas devido ao investimento inicial. Porém, soluções SaaS especializadas e plataformas no-code estão democratizando acesso. PMEs podem começar com DSLMs pré-treinados para seus setores antes de investir em customização."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como medir se um DSLM está performando melhor que um modelo generalista no meu caso de uso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Estabeleça métricas específicas do domínio: precisão em classificação, tempo de processamento, taxa de falsos positivos. Execute testes A/B com datasets reais da empresa, medindo não apenas precisão técnica, mas impacto em processos de negócio e satisfação dos usuários finais."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso treinar meu próprio DSLM ou preciso comprar de fornecedores especializados?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Treinar DSLMs internamente exige datasets limpos, expertise em ML e infraestrutura computacional significativa. Para a maioria das empresas, parcerias com fornecedores especializados ou soluções SaaS oferecem melhor custo-benefício. Considere treinamento próprio apenas se tem dados proprietários únicos e equipe técnica dedicada."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "DSLMs substituirão completamente os modelos generalistas ou são complementares?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DSLMs e modelos generalistas são complementares. Generalistas continuarão dominando tarefas variadas e criativas, enquanto DSLMs se especializarão em domínios críticos. A tendência é arquiteturas híbridas que combinam ambos conforme o contexto, maximizando eficiência e precisão para cada tipo de tarefa."
+      }
+    }
+    ]
+  }
+  </script>
 </head>
 <body>
 

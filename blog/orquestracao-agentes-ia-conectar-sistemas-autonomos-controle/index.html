@@ -53,7 +53,54 @@
     }
   }
   </script>
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qual a diferença entre orquestração de agentes e workflows tradicionais de automação?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Workflows tradicionais seguem sequências predefinidas fixas com pontos de decisão limitados. Orquestração de agentes permite adaptação dinâmica baseada em contexto, com agentes especializados que podem alterar fluxo conforme necessário. É a diferença entre seguir um roteiro rígido versus improviso coordenado por especialistas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quantos agentes posso orquestrar antes de perder controle da operação?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não existe limite técnico absoluto, mas complexidade cresce exponencialmente. Na prática, sistemas com mais de 7-10 agentes se tornam difíceis de debugar e manter. O ponto crítico não é quantidade, mas interconexões - cada agente que precisa falar com múltiplos outros adiciona complexidade significativa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como implementar human-in-the-loop em sistemas multi-agente sem criar gargalos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Defina critérios específicos que trigram aprovação humana automaticamente - valor, tipo de cliente, categoria de decisão. Use interfaces que apresentem contexto completo rapidamente e permitam aprovação com um clique. Implemente timeouts que escalam para backup quando humano não responde no prazo definido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais frameworks de orquestração são compatíveis com Model Context Protocol (MCP)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LangGraph e CrewAI já oferecem suporte experimental ao MCP para troca padronizada de contexto entre agentes. AutoGen está desenvolvendo compatibilidade para Q2 2026. MCP simplifica handoffs entre agentes de fornecedores diferentes, reduzindo vendor lock-in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como auditar decisões em sistemas onde múltiplos agentes colaboraram no resultado final?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Implemente logging estruturado que capture não apenas decisões individuais, mas contribuição de cada agente para resultado final. Use identificadores únicos que permitam rastrear contexto através de múltiplos handoffs. Ferramentas como LangSmith oferecem trace distribuído específico para sistemas multi-agente, essencial para auditoria."
+      }
+    }
+    ]
+  }
+  </script>
 </head>
 <body>
 

@@ -53,7 +53,54 @@
     }
   }
   </script>
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Schema markup é obrigatório para aparecer no Google?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não é obrigatório, mas sites com Schema têm prioridade para rich snippets e featured snippets. Google consegue indexar conteúdo sem Schema, porém com menor precisão interpretativa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual Schema ajuda mais a ser citado por IAs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Article e FAQPage são os mais impactantes para citações. Article estabelece autoridade da fonte, enquanto FAQPage fornece respostas diretas que IAs extraem com frequência."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso saber programar para adicionar Schema no meu site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não necessariamente. WordPress tem plugins como Yoast e RankMath que geram Schema automaticamente. Sites custom precisam de conhecimento básico JSON ou ajuda de desenvolvedor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Schema markup funciona em WordPress?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, perfeitamente. Plugins especializados facilitam implementação, mas você também pode adicionar código manualmente via functions.php ou diretamente nos templates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso usar múltiplos tipos de Schema na mesma página?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tecnicamente sim, mas não é recomendado. Use um @type principal por página. Se necessário combinar, use propriedades aninhadas dentro do Schema principal."
+      }
+    }
+    ]
+  }
+  </script>
 </head>
 <body>
 

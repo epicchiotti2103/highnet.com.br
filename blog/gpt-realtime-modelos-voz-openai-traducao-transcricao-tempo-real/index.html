@@ -53,7 +53,54 @@
     }
   }
   </script>
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Qual a latência real do GPT-Realtime em português brasileiro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A latência média é de 320ms para português brasileiro, similar ao inglês. Em conexões instáveis ou com ruído de fundo, pode aumentar para 500-800ms, ainda superior aos 2-5 segundos de sistemas tradicionais."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "GPT-Realtime funciona offline ou precisa de conexão constante?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Requer conexão WebSocket constante com a OpenAI. Não há versão offline disponível. Para cenários sem conectividade, considere Whisper local combinado com modelos LLM offline."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa processar 1 hora de áudio com GPT-Realtime?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aproximadamente $3.60 para transcrição simples ou $7.20 para conversas interativas com múltiplas interrupções. Custos variam conforme complexidade da conversa e frequência de mudanças de contexto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "GPT-Realtime é mais preciso que o Whisper para transcrição?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para transcrição pura, Whisper mantém ligeira vantagem (97% vs 94-96%). GPT-Realtime se destaca na preservação de contexto conversacional e nuances paralinguísticas que se perdem na conversão texto-áudio tradicional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como integrar GPT-Realtime com sistemas de telefonia corporativa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use APIs WebRTC para capturar áudio de chamadas e redirecionar para WebSocket do GPT-Realtime. Sistemas como Twilio e Asterisk oferecem conectores nativos. Considere compliance e gravação para auditoria conforme regulamentações locais."
+      }
+    }
+    ]
+  }
+  </script>
 </head>
 <body>
 
